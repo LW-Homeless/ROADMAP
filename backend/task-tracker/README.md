@@ -1,3 +1,5 @@
+Sample solution for the [task-tracker](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh)
+
 # Task Tracker
 
 Task tracker is a project used to track and manage your tasks. A simple command line interface will be built to keep track of what needs to be done. What you have done and what you are currently working on. This project will help you practice your programming skills including working with the file system, handling user input, and building a simple CLI application.
@@ -24,7 +26,7 @@ Each task should have the following properties.
 - Design pattern: Command Behavior Design Pattern.
 
 The **Command** design pattern has the following structure.
-
+![alt text](https://github.com/LW-Homeless/roadmap/blob/main/backend/task-tracker/structure.png)
 
 # How to use
 Install tabulate module with the following command: pip install tabulate==0.9.0
@@ -37,4 +39,6 @@ Install tabulate module with the following command: pip install tabulate==0.9.0
 - ** List all tasks :** python task-cli.py list
 - **List all tasks that are done :** python task-cli.py list --task "done"
 - **List all tasks that are in progress :** python task-cli.py list --task "in-progress"
-- ** List all task that are todo :** python task-cli.py list --task "todo"
+- **List all task that are todo :** python task-cli.py list --task "todo"
+
+![alt text](https://github.com/LW-Homeless/roadmap/blob/main/backend/task-tracker/video.gif)
