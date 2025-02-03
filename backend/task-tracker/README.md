@@ -36,7 +36,7 @@ Install tabulate module with the following command: pip install tabulate==0.9.0
 - **Update task :** python task-cli.py update --task 1 --description "Test Update"
 - **Mark a task as "in progress" :** python task-cli.py mark-in-progress --task 1
 - **Mark a task as "done" :** python task-cli.py done --task 1
-- ** List all tasks :** python task-cli.py list
+- **List all tasks :** python task-cli.py list
 - **List all tasks that are done :** python task-cli.py list --task "done"
 - **List all tasks that are in progress :** python task-cli.py list --task "in-progress"
 - **List all task that are todo :** python task-cli.py list --task "todo"
