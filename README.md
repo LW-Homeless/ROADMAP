@@ -1,23 +1,25 @@
-Sample solution for the [task-tracker](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh)
+## 🚀 Sobre mí
+Soy un apasionado del desarrollo de software con un enfoque en backend y arquitectura de sistemas. Actualmente, estoy construyendo mi portafolio utilizando la plataforma [roadmap.sh](https://roadmap.sh), siguiendo un plan de aprendizaje estructurado en tecnologías clave como Linux, diseño y arquitectura de software, estructuras de datos y algoritmos, Python, PHP, SQL, React y diseño de sistemas.
 
-# 🚀 Mi Roadmap de Desarrollo en Python, Backend y Seguridad  
+## 🛠️ Tecnologías y herramientas
+- **Lenguajes de programación:** Python, PHP, SQL
+- **Frontend:** React
+- **Backend:** Django, Laravel
+- **Bases de datos:** PostgreSQL, MySQL
+- **Sistemas operativos:** Linux
+- **Conceptos avanzados:** Diseño de sistemas, estructuras de datos y algoritmos
 
-Bienvenido a mi roadmap de aprendizaje y desarrollo en tecnologías backend, frontend y ciberseguridad. Este documento servirá para organizar mi progreso y compartir recursos útiles.  
+## 📌 Mi Roadmap
+Estoy en constante aprendizaje y mi roadmap de desarrollo incluye:
+- 🔹 **Linux:** Administración de sistemas y scripting.
+- 🔹 **Diseño y arquitectura de software:** Patrones de diseño, buenas prácticas y escalabilidad.
+- 🔹 **Estructura de datos y algoritmos:** Optimización y resolución de problemas.
+- 🔹 **Python y PHP:** Desarrollo backend eficiente y seguro.
+- 🔹 **SQL:** Diseño de bases de datos y optimización de consultas.
+- 🔹 **Diseño de sistemas:** Arquitecturas escalables y distribuidas.
+- 🔹 **React:** Desarrollo frontend con componentes reutilizables.
 
-📌 **Áreas de enfoque**:  
-1. 🐍 **Python** → Fundamentos, optimización con Cython y mejores prácticas.  
-2. 🐘 **PostgreSQL** → Diseño, consultas avanzadas y optimización de bases de datos.  
-3. 🔙 **Backend Development** → Django, Django Rest Framework y arquitectura de software.  
-4. 🎨 **Frontend Development** → HTML, CSS, JavaScript y React.js.  
-5. 🔗 **API Design** → Creación de APIs RESTful, GraphQL y principios de diseño.  
-6. 🔒 **Cybersecurity** → Seguridad en aplicaciones web, OWASP Top 10 y pentesting básico.
----
+## 📫 Conéctate conmigo
+- 💼 [LinkedIn](www.linkedin.com/in/jaime-francisco-meneses-castillo-3382b9260)
 
-## 🛠 **Stack Tecnológico**  
-
-- **Lenguajes:** Python, JavaScript.
-- **Backend:** Django, Django Rest Framework.  
-- **Frontend:** React.js, Bootstrap.
-- **Bases de Datos:** PostgreSQL, MySQL.
-- **API Design:** REST, GraphQL, OpenAPI.
-- **Seguridad:** OWASP, JWT, OAuth, Pentesting básico.
+¡Gracias por visitar mi perfil! 🚀
