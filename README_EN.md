@@ -20,6 +20,6 @@ I am constantly learning and my development roadmap includes:
 - 🔹 **React:** Frontend development with reusable components.
 
 ## 📫 Connect with me
-- 💼 [LinkedIn](www.linkedin.com/in/jaime-francisco-meneses-castillo-3382b9260)
+- 💼 [LinkedIn](http://linkedin.com/in/jaime-francisco-meneses-castillo-3382b9260)
 
 Thanks for visiting my profile! 🚀
