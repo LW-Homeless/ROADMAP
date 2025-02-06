@@ -20,6 +20,6 @@ Estoy en constante aprendizaje y mi roadmap de desarrollo incluye:
 - 🔹 **React:** Desarrollo frontend con componentes reutilizables.
 
 ## 📫 Conéctate conmigo
-- 💼 [LinkedIn](www.linkedin.com/in/jaime-francisco-meneses-castillo-3382b9260)
+- 💼 [LinkedIn](https://linkedin.com/in/jaime-francisco-meneses-castillo-3382b9260/)
 
 ¡Gracias por visitar mi perfil! 🚀
