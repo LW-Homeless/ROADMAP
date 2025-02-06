@@ -15,7 +15,7 @@ I am constantly learning and my development roadmap includes:
 - 🔹 **Software Design and architecture:** Design patterns, best practices and scalability.
 - 🔹 **Data structure and algorithms:** Optimization and troubleshooting.
 - 🔹 **Python y PHP:** Efficient and secure backend development..
-- 🔹 **SQL:**Database design and query optimization..
+- 🔹 **SQL:** Database design and query optimization..
 - 🔹 **Systems design:** Scalable and distributed architectures
 - 🔹 **React:** Frontend development with reusable components.
 
