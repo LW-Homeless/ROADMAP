@@ -19,7 +19,7 @@ I am constantly learning and my development roadmap includes:
 - 🔹 **Systems design:** Scalable and distributed architectures
 - 🔹 **React:** Frontend development with reusable components.
 
-## 📫 Connect with me
+## 📫 Contact
 - 💼 [LinkedIn](http://linkedin.com/in/jaime-francisco-meneses-castillo-3382b9260)
 
 Thanks for visiting my profile! 🚀
