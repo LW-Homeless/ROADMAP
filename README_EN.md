@@ -1,5 +1,5 @@
 ## 🚀 About me
-I am a passionate in developed of software with an focusing in backend and architecture of system. Currently I'm building my profile using the platform [roadmap.sh](https://roadmap.sh), following a struture learning plan on key technologies such as Linux, Software design and Architecture, Data struture and algorithms, Python, PHP, SQL, React, and System design.
+I am passionate in software developement with an focusing in backend and system. Currently I'm building my profile using the platform [roadmap.sh](https://roadmap.sh), following a struture learning plan on key technologies such as Linux, Software design and Architecture, Data struture and algorithms, Python, PHP, SQL, React, and System design.
 
 ## 🛠️ Technologies and Tools
 - **programming languages:** Python, PHP, SQL
