@@ -22,7 +22,7 @@ Each task should have the following properties.
 
 # Solution
 - Programming language: Python 3.11.3.
-- Type of programming: Object oriented program (OOP).
+- Type of programming: object-oriented programming (OOP).
 - Design pattern: Command Behavior Design Pattern.
 
 The **Command** design pattern has the following structure.
