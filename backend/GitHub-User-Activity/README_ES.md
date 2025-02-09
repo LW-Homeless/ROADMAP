@@ -22,11 +22,11 @@ El patrón de diseño Command tiene la siguiente estructura.
 ![image](https://github.com/LW-Homeless/roadmap/blob/main/backend/task-tracker/structure.png) 
 
 # Cómo utilizar
-Instale los módulos Pandas, colorama y tabutate con el siguiente comando:
-pip install tabulate
-pip install pandas
-pip install colorama
-pip install requests
+Instale los módulos Pandas, colorama y tabutate con el siguiente comando:  
+pip install tabulate  
+pip install pandas  
+pip install colorama  
+pip install requests  
 
 Por último, ejecute el siguiente comando:
 `python github-activity.py username`
