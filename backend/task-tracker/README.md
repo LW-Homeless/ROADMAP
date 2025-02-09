@@ -23,7 +23,7 @@ Each task should have the following properties.
 # Solution
 - Programming language: Python 3.11.3.
 - Type of programming: object-oriented programming (OOP).
-- Design pattern: Command Behavior Design Pattern.
+- Design pattern: Behavioral design pattern **Command**.
 
 The **Command** design pattern has the following structure.
 ![alt text](https://github.com/LW-Homeless/roadmap/blob/main/backend/task-tracker/structure.png)
