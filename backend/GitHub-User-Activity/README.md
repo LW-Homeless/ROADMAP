@@ -21,11 +21,11 @@ Example:  https://api.github.com/users/ **LW-Homeless** /events
 The Command design pattern has the following structure.
 ![image](https://github.com/LW-Homeless/roadmap/blob/main/backend/task-tracker/structure.png) 
 # How to use
-Install the modules Pandas, colorama and tabutate with the following command:
-pip install tabulate
-pip install pandas 
-pip install colorama
-pip install requests
+Install the modules Pandas, colorama and tabutate with the following command:  
+pip install tabulate  
+pip install pandas  
+pip install colorama  
+pip install requests  
 
 Finally, run the following command:
 `python github-activity.py username`
