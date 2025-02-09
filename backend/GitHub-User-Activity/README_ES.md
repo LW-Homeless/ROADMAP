@@ -18,6 +18,9 @@ Ejemplo: https://api.github.com/users/ **LW-Homeless** /events
 - Tipo de programación: Programación orientado a objetos (POO).
 - Patrón de diseño: Patrón de diseño de comportamiento command.
 
+El patrón de diseño Command tiene la siguiente estructura.
+![image](https://github.com/LW-Homeless/roadmap/blob/main/backend/task-tracker/structure.png) 
+
 # Cómo utilizar
 Instale los módulos Pandas, colorama y tabutate con el siguiente comando:
 pip install tabulate
@@ -27,3 +30,5 @@ pip install requests
 
 Por último, ejecute el siguiente comando:
 `python github-activity.py username`
+
+![video](https://github.com/LW-Homeless/roadmap/blob/main/backend/GitHub-User-Activity/video.gif)
