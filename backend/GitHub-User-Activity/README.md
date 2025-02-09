@@ -10,8 +10,8 @@ The application should run from the command line, accept the GitHub username as 
 `python github-activity <username>`
 
 - Fetch the recent activity of the specified GitHub user using the GitHub API. You can use the following endpoint to fetch the user's activity:
- https://api.github.com/users/ **username** /events
- Example:  https://api.github.com/users/ **LW-Homeless** /events
+https://api.github.com/users/ **username** /events
+Example:  https://api.github.com/users/ **LW-Homeless** /events
 
 # Solution
 - Programming language: Python 3.11.3.
