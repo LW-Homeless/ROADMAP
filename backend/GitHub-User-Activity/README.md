@@ -23,9 +23,9 @@ The application should run from the command line, accept the GitHub username as 
 	...
 
 # Solution
-Programming Language	:	 Python 3.11.3
-Type of programming	:	 Object-oriented programming (OOP)
-Design pattern	:	 Behavioral design pattern **Command**
+Programming Language	:	 Python 3.11.3  
+Type of programming	:	 Object-oriented programming (OOP)  
+Design pattern	:	 Behavioral design pattern **Command**  
 
 The Command design pattern has the following structure.
 
