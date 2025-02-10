@@ -14,12 +14,12 @@ The application should run from the command line, accept the GitHub username as 
  
   `Example: https://api.github.com/users/kamranahmedse/events` 
 
-- Display the fetched activity in the terminal
+- Display the fetched activity in the terminal  
 
-	**Output:**
-	*Pushed 3 commits to kamranahmedse/developer-roadmap
-	Opened a new issue in kamranahmedse/developer-roadmap
-	Starred kamranahmedse/developer-roadmap*
+	**Output:**  
+	*Pushed 3 commits to kamranahmedse/developer-roadmap  
+	Opened a new issue in kamranahmedse/developer-roadmap  
+	Starred kamranahmedse/developer-roadmap*  
 	...
 
 # Solution
