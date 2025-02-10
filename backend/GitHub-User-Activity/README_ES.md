@@ -9,8 +9,8 @@ La aplicación debe ejecutarse desde la línea de comandos, aceptar el nombre de
 - Proporcionar el nombre de usuario de GitHub como argumento al ejecutar la CLI.
 `github-activity <username>`
 
-- Obtener la actividad reciente del usuario de GitHub especificado mediante la API de GitHub. Puede utilizar el siguiente punto de conexión para obtener la actividad del usuario:
-`https://api.github.com/users/<username>/events`
+- Obtener la actividad reciente del usuario de GitHub especificado mediante la API de GitHub. Puede utilizar el siguiente punto de conexión para obtener la actividad del usuario:  
+`https://api.github.com/users/<username>/events`  
 `Ejemplo: https://api.github.com/users/kamranahmedse/events`
 
 - Mostrar la actividad obtenida en la terminal.  
