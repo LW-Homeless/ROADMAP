@@ -2,22 +2,28 @@ import argparse
 
 from colorama import Fore, init
 
-from model.APIGithub import APIGithub
+from model.APIGithub import APIGitHub
 from model.CommandInvoker import CommandInvoker
 from model.Command import GetEventUser
 
 
 class GitHubActivity:
-
+    """
+    Class: GitHubActivity
+    Description: Is responsible run the application
+    """
     @staticmethod
     def main():
-
+        """
+        Description:
+            Initialized the application
+        """
         parser = argparse.ArgumentParser(description="GitHub User Activity v1.0.0")
         parser.add_argument("user", type=str, help="Input the Github-user")
 
         arg = parser.parse_args()
 
-        api = APIGithub()
+        api = APIGitHub()
         invoker = CommandInvoker()
         
 

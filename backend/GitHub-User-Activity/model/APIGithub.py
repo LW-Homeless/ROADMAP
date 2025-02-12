@@ -5,15 +5,28 @@ from tabulate import tabulate
 from colorama import init, Fore
 
 
-class APIGithub:
-
+class APIGitHub:
+    """
+    Class: APIGitHub
+    Description: APIGitHub adds funtionality for interacture with the APIREST Github.
+    """
     def __init__(self):
+
         self.__headers = ''
         self.__response = ''
         self.__json = []
 
     def get_event_user(self, query):
+        """
+        Description:
+            Request https://api.github.com/users/[username]/events endpoint.
 
+        Parameters:
+            query (str): GitHub endpoint.
+
+        Returns:
+            Summary the activity GitHub user.
+        """
         init()
 
         self.__headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
