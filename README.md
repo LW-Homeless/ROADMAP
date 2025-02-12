@@ -1,5 +1,3 @@
-[Github-user-activity](https://roadmap.sh/projects/github-user-activity)
-
 ## 🚀 Sobre mí
 Soy un apasionado del desarrollo de software con un enfoque en backend y arquitectura de sistemas. Actualmente, estoy construyendo mi portafolio utilizando la plataforma [roadmap.sh](https://roadmap.sh), siguiendo un plan de aprendizaje estructurado en tecnologías clave como Linux, diseño y arquitectura de software, estructuras de datos y algoritmos, Python, PHP, SQL, React y diseño de sistemas.
 
