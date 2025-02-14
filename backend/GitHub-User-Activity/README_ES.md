@@ -33,3 +33,5 @@ El patrón de diseño Command tiene la siguiente estructura.
 
 # Cómo usar
 `python github-activity <username>`
+
+![video](https://github.com/LW-Homeless/roadmap/blob/main/backend/GitHub-User-Activity/video.gif)
