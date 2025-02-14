@@ -33,3 +33,4 @@ The Command design pattern has the following structure.
 
 # How to use
 `python github-activity <username>`
+![video](https://github.com/LW-Homeless/roadmap/blob/main/backend/GitHub-User-Activity/video.gif)
