@@ -1,0 +1,106 @@
+{% extends 'app/Base_Template.html' %}
+{% load static %}
+{% block header %}
+<div class="wrapper">
+    <div class="content">
+        <!-- Navbar Start -->
+        <div class="container p-0">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                <a href="" class="navbar-brand d-block d-lg-none">Navigation</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav m-auto">
+                        <a href="{% url 'index' %}" class="nav-item nav-link">Home</a>
+                        <a href="{% url 'about' %}" class="nav-item nav-link">About</a>
+                        <a href="{% url 'contact' %}" class="nav-item nav-link active">Contact</a>
+                        <a href="{% url 'login' %}" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Page Header Start -->
+        <div class="container py-5 px-2 bg-primary">
+            <div class="row py-5 px-4">
+                <div class="col-sm-6 text-center text-md-left">
+                    <h1 class="mb-3 mb-md-0 text-white text-uppercase font-weight-bold">Contact Me</h1>
+                </div>
+                <div class="col-sm-6 text-center text-md-right">
+                    <div class="d-inline-flex pt-2">
+                        <h4 class="m-0 text-white"><a class="text-white" href="{% url 'index' %}">Home</a></h4>
+                        <h4 class="m-0 text-white px-2">/</h4>
+                        <h4 class="m-0 text-white">Contact Me</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+        {% endblock %}
+
+        {% block content %}
+        <!-- Contact Start -->
+        <div class="container bg-white pt-5">
+            <div class="row px-3 pb-2">
+                <div class="col-sm-4 text-center mb-3">
+                    <i class="fa fa-2x fa-map-marker-alt mb-3 text-primary"></i>
+                    <h4 class="font-weight-bold">Address</h4>
+                    <p>123 Street, New York, USA</p>
+                </div>
+                <div class="col-sm-4 text-center mb-3">
+                    <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
+                    <h4 class="font-weight-bold">Phone</h4>
+                    <p>+012 345 6789</p>
+                </div>
+                <div class="col-sm-4 text-center mb-3">
+                    <i class="far fa-2x fa-envelope mb-3 text-primary"></i>
+                    <h4 class="font-weight-bold">Email</h4>
+                    <p>info@example.com</p>
+                </div>
+            </div>
+            <div class="col-md-12 pb-5">
+                <div class="contact-form">
+                    <div id="success"></div>
+                    <form action="{%  url 'contact' %}" method="POST" autocomplete="off">
+                        {% csrf_token %}
+                        <div class="control-group">
+                            {{ form.contact_name }}
+                        </div>
+                        <br/>
+                        <div class="control-group">
+                            {{ form.contact_mail }}
+                        </div>
+                        <br/>
+                        <div class="control-group">
+                            {{ form.contact_subject }}
+                        </div>
+                        <br/>
+                        <div class="control-group">
+                            {{ form.contact_message }}
+                        </div>
+                        <br/>
+                        <div>
+                            <button class="btn btn-primary" type="submit" id="sendMessageButton">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        {% if messages %}
+        {% for m in messages %}
+        <script>
+            Swal.fire({
+                text: "{{m}}",
+                icon: "success",
+                confirmButtonColor: "#2a4b7c"
+            })
+        </script>
+        {% endfor %}
+        {% endif %}
+
+        <!-- Contact End -->
+        {% endblock %}
+    </div>
+</div>
