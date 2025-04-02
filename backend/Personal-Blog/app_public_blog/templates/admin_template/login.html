@@ -1,0 +1,25 @@
+{% extends 'admin_template/template.html' %}
+{% load static %}
+{% block content %}
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-light mx-auto w-50 rounded p-4">
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-danger">{{ message }}</div>
+        {% endfor %}
+        {% endif %}
+        <form action="{{ request.path }}" method="POST">
+            {% csrf_token %}
+            <fieldset>
+                <legend class="text-center">Sing In</legend>
+                {{ form.username.label_tag }}
+                {{ form.username|safe }}
+                {{ form.password.label_tag }}
+                {{ form.password|safe }}
+                <br/>
+                <button class="btn btn-sm btn-primary">Login</button>
+            </fieldset>
+        </form>
+    </div>
+</div>
+{% endblock %}

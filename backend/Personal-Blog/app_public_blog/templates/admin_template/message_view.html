@@ -1,0 +1,15 @@
+{% extends 'admin_template/template.html' %}
+{% load static %}
+{% block content %}
+<div class="container-fluid pt-4 px-4">
+    <p><b>Contact Name:</b> {{ message.contact_name|safe }}</p>
+    <p><b>Contact Email:</b> {{ message.contact_email|safe }}</p>
+    <p><b>Subject:</b> {{ message.contact_suject|safe }}</p>
+    <p><b>Message</b></p>
+    <hr/>
+    <p>
+        {{ message.contact_message|safe }}
+    </p>
+    <hr>
+</div>
+{% endblock %}

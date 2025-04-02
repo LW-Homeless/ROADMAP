@@ -1,0 +1,50 @@
+{% extends 'admin_template/template.html' %}
+{% load static %}
+{% block content %}
+<!-- Form Article -->
+<div class="container-fluid pt-4 px-4">
+    <form action="{{ request.path }}" method="POST">
+        {% csrf_token %}
+        {{ form.media }}
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <label for="txtTitle" class="form-label">Title</label>
+                {{ form.article_title|safe }}
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <label for="txtDate" class="form-label">Date</label>
+                {{ form.article_date|safe }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <label for="txtDescription" class="form-label">Description</label>
+                {{ form.article_description|safe }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <label for="txtArticleContent" class="form-label">Article Content</label>
+                {{ form.article_content|safe }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <button type="submit" class="btn btn-primary mt-2">Save</button>
+            </div>
+        </div>
+    </form>
+</div>
+<!-- Form Article end  -->
+<script src="{% static 'lib/sweetalert2/package/dist/sweetalert2.all.min.js' %}"></script>
+    {% if messages %}
+    {% for m in messages %}
+        <script>
+            Swal.fire({
+                "text": "{{m}}",
+                "icon": "success"
+            })
+        </script>
+    {% endfor %}
+    {% endif %}
+{% endblock %}

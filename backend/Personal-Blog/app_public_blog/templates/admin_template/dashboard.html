@@ -1,0 +1,90 @@
+{% extends 'admin_template/template.html' %}
+{% load static %}
+{% block content %}
+<!--  List Article -->
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-light text-center rounded p-4">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+            <h6 class="mb-0">List Article</h6>
+            <a href="{% url 'article' %}" class="btn btn-primary">Create Article</a>
+        </div>
+        <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                <tr class="text-dark">
+                    <th scope="col">Date</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Action</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                {% for article in page_obj %}
+                <tr>
+                    <td>{{ article.article_date|safe }}</td>
+                    <td>{{ article.article_title|safe }}</td>
+                    <td>{{ article.article_description|safe }}</td>
+                    <td>
+                        <a class="btn btn-sm btn-primary" href="{% url 'viewArticle' article.id_article %}">View</a>
+                        <a class="btn btn-sm btn-success" href="{% url 'updateArticle' article.id_article %}">Update</a>
+                        <a class="btn btn-sm btn-danger" href="{% url 'deleteArticle' article.id_article %}">Delete</a>
+                    </td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br/>
+    <!-- Paginator -->
+    <ul class="pagination">
+        {% if page_obj.has_previous %}
+        <li class="page-item">
+            <a class="page-link" href="?page=1" aria-label="First">
+                <span aria-hidden="true">&laquo;&laquo;</span>
+            </a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="?page={{ page_obj.previous_page_number }}" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        {% endif %}
+
+        {% for num in page_obj.paginator.page_range %}
+        {% if page_obj.number == num %}
+        <li class="page-item active"><span class="page-link">{{ num }}</span></li>
+        {% elif num >= page_obj.number|add:'-2' and num <= page_obj.number|add:'2' %}
+        <li class="page-item"><a class="page-link" href="?page={{ num }}">{{ num }}</a></li>
+        {% endif %}
+        {% endfor %}
+
+        {% if page_obj.has_next %}
+        <li class="page-item">
+            <a class="page-link" href="?page={{ page_obj.next_page_number }}" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="?page={{ page_obj.paginator.num_pages }}" aria-label="Last">
+                <span aria-hidden="true">&raquo;&raquo;</span>
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+    <!-- End Paginator -->
+</div>
+<!-- Article End -->
+<script src="{% static 'lib/sweetalert2/package/dist/sweetalert2.all.min.js' %}"></script>
+{% if messages %}
+{% for m in messages %}
+<script>
+    Swal.fire({
+        "text": "{{m}}",
+        "icon": "success"
+    })
+</script>
+{% endfor %}
+{% endif %}
+{% endblock %}
