@@ -23,3 +23,4 @@ Estoy en constante aprendizaje y mi roadmap de desarrollo incluye:
 - 💼 [LinkedIn](https://linkedin.com/in/jaime-francisco-meneses-castillo-3382b9260/)
 
 ¡Gracias por visitar mi perfil! 🚀
+Sample solution for the [Personal Blog](https://roadmap.sh/projects/personal-blog) challenge from [roadmap.sh](https://roadmap.sh)
