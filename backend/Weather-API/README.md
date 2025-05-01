@@ -13,7 +13,7 @@ Once you have already registered, the app Visual Crossing will assign a API key.
 
 The program flow will be as follows:
 
-![alt text](https://assets.roadmap.sh/guest/weather-api-f8i1q.png)
+![alt text](https://github.com/LW-Homeless/ROADMAP/blob/main/backend/Weather-API/IMG/diagram.png)
 
 ## Requirement
 Python 3.11.3  
@@ -48,5 +48,4 @@ self.__api_key = 'Type your api key'
 python Main.py
 ```
 ## Demo video
-
-
+![alt text](https://github.com/LW-Homeless/ROADMAP/blob/main/backend/Weather-API/IMG/weather-api.gif)
