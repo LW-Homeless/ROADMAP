@@ -22,4 +22,5 @@ Estoy en constante aprendizaje y mi roadmap de desarrollo incluye:
 ## 📫 Conéctate conmigo
 - 💼 [LinkedIn](https://linkedin.com/in/jaime-francisco-meneses-castillo-3382b9260/)
 
-¡Gracias por visitar mi perfil! 🚀
+¡Gracias por visitar mi perfil! 🚀  
+Solution for the [Weather API](https://roadmap.sh/projects/weather-api-wrapper-service) challenge from [roadmap.sh](https://roadmap.sh)
