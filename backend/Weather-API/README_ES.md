@@ -9,7 +9,7 @@ Para mantener los datos en caché utilizaremos [Redis](https://redis.io/).
 Para utilizar la API de Visual Crossing, tú debes crear una cuenta, luego Visual Crossing te asignará tú clave de API.  
 
 El flujo del programa será el siguiente:
-![alt text](https://assets.roadmap.sh/guest/weather-api-f8i1q.png)
+![alt text](https://github.com/LW-Homeless/ROADMAP/blob/main/backend/Weather-API/IMG/diagram.png)
 ## Requisitos
 Python 3.11.3
 ## Dependencias
@@ -42,3 +42,4 @@ self.__api_key = 'Type your api key'
 python Main.py
 ```
 ## Video demostración
+![alt text](https://github.com/LW-Homeless/ROADMAP/blob/main/backend/Weather-API/IMG/weather-api.gif)
