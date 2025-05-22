@@ -130,7 +130,7 @@ La API estará disponible en http://127.0.0.1:8000/api/
 
 ## API Documentación Endpoints
 **URL**: /api/schema/swagger-ui/  
-[image]
+![alt text](https://github.com/LW-Homeless/ROADMAP/blob/main/backend/Blogging_Platform_API/IMG/swagger-ui.png)
 
 ## Video demostración
-[video]
+![alt text](https://github.com/LW-Homeless/ROADMAP/blob/main/backend/Blogging_Platform_API/IMG/Blogging_Platform_API.gif)
