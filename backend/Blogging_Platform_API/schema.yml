@@ -1,0 +1,156 @@
+openapi: 3.0.3
+info:
+  title: Blogging Platform API
+  version: 1.0.0
+  description: RESTful API for a personal blogging platform
+paths:
+  /api/createPost/:
+    post:
+      operationId: api_createPost_create
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '201':
+          description: Created
+  /api/deletePost/{id_post}/:
+    delete:
+      operationId: api_deletePost_destroy
+      parameters:
+      - in: path
+        name: id_post
+        schema:
+          type: integer
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '204':
+          description: No Content
+        '404':
+          description: Not found
+  /api/getPost/{id_post}/:
+    get:
+      operationId: api_getPost_retrieve
+      parameters:
+      - in: path
+        name: id_post
+        schema:
+          type: integer
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetPost'
+          description: ''
+  /api/listAllPost/:
+    get:
+      operationId: api_listAllPost_list
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/GetPost'
+          description: ''
+  /api/searchPost/{term}/:
+    get:
+      operationId: api_searchPost_list
+      parameters:
+      - in: path
+        name: term
+        schema:
+          type: string
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/GetPost'
+          description: ''
+  /api/updatePost/{id_post}/:
+    put:
+      operationId: api_updatePost_update
+      parameters:
+      - in: path
+        name: id_post
+        schema:
+          type: integer
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: '"No Post matches the given query.'
+components:
+  schemas:
+    GetPost:
+      type: object
+      properties:
+        id_post:
+          type: integer
+          readOnly: true
+        title:
+          type: string
+          maxLength: 100
+        content:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
+          readOnly: true
+        updateAt:
+          type: string
+          format: date-time
+          nullable: true
+      required:
+      - content
+      - createdAt
+      - id_post
+      - title
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: sessionid
