@@ -129,7 +129,7 @@ python manage.py runserver
 
 ## API Endpoint Documentation
 **URL**: /api/schema/swagger-ui/  
-[image]
+![alt text](https://github.com/LW-Homeless/ROADMAP/blob/main/backend/Blogging_Platform_API/IMG/swagger-ui.png)
 
 ## Demo Video
-[video]
+![alt text](https://github.com/LW-Homeless/ROADMAP/blob/main/backend/Blogging_Platform_API/IMG/Blogging_Platform_API.gif)
