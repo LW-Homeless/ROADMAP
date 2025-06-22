@@ -3,7 +3,7 @@ Solution to the [Todo List API](https://roadmap.sh/projects/todo-list-api) Chall
 In this project, you are required to develop a RESTful API that allows users to manage their to-do lists. This project will
 help you understand how to design and implement a RESTful API with user authentication.
 You'll also learn how to work with databases, handle errors, and implement security measures.  
-[image]
+![text alt](https://github.com/LW-Homeless/ROADMAP/blob/main/backend/Todo_List_API/todo-api.png)
 
 ## Goals
 - User authentication
