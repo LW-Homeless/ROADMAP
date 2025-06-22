@@ -3,7 +3,7 @@ Solución para el desafío [Todo List API](https://roadmap.sh/projects/todo-list
 En este proyecto, deberás desarrollar una API RESTful que permita a los usuarios gestionar sus listas de tareas.
 Este proyecto te ayudará a comprender cómo diseñar e implementar una API RESTful con autenticación de usuarios.
 También aprenderás a trabajar con bases de datos, gestionar errores e implementar medidas de seguridad.
-[image]
+![text alt](https://github.com/LW-Homeless/ROADMAP/blob/main/backend/Todo_List_API/todo-api.png)
 
 ## Objetivos
 - Autenticación de usuario
@@ -13,7 +13,7 @@ También aprenderás a trabajar con bases de datos, gestionar errores e implemen
 - Manejo de errores
 - Seguridad
 
-## Requirements
+## Requerimientos
 Debes desarrollar una API RESTful con los siguientes endpoints.  
 
 - Registro de usuario para crear un nuevo usuario
