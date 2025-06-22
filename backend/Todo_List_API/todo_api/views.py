@@ -43,7 +43,7 @@ class UpdateItem(APIView):
 
         # set datetime update
         data = request.data.copy()
-        data['updateAt'] = timezone.now()
+        data['updateAt'] = timezone.now().date()
 
         serializer = UpdateItemSerializer(item, data=data)
 
